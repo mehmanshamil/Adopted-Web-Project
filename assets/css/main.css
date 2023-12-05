@@ -1,0 +1,148 @@
+header .head {
+  height: 3rem;
+  align-items: center;
+  background-color: rgb(188, 81, 72);
+}
+header .head .icons {
+  width: 50rem;
+}
+header .head .icons i {
+  color: black;
+  transition: 1s;
+  font-size: 13px;
+}
+header .head .icons i:hover {
+  color: #fff;
+  cursor: pointer;
+}
+header .head .text-head p {
+  color: black;
+  margin: 0;
+  padding: 12.5px;
+  cursor: pointer;
+  transition: 1s;
+}
+header .head .text-head p:hover {
+  color: #fff;
+}
+header .head .text-head .login {
+  background-color: yellow;
+}
+
+main #carousel {
+  position: relative;
+  width: 100%;
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main #carousel img {
+  position: absolute;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 40rem;
+  overflow: hidden;
+}
+main #carousel .content {
+  position: absolute;
+}
+main #carousel .content .celine {
+  font-size: 1.5rem;
+}
+main #carousel .content .needs {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+main #carousel .content .lorem {
+  max-width: 30%;
+}
+main #carousel .content .btn-adopt {
+  max-width: 170px;
+  padding: 15px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: rgb(188, 81, 72);
+  border: 1px solid rgb(188, 81, 72);
+  transition: 1s;
+}
+main #carousel .content .btn-adopt:hover {
+  color: rgb(188, 81, 72);
+  background-color: #fff;
+}
+
+#people .container .row .col-xl-6 .steps {
+  font-weight: 500;
+  font-size: 2rem;
+}
+#people .container .row .col-xl-6 .peop-img {
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+#people .container .row .col-xl-6 .peop-img button {
+  width: 200px;
+  color: rgb(188, 81, 72);
+  padding: 15px;
+  border: 1px solid rgb(188, 81, 72);
+  transition: 1s;
+  border-radius: 5px;
+}
+#people .container .row .col-xl-6 .peop-img button:hover {
+  color: #fff;
+  background-color: rgb(188, 81, 72);
+}
+#people .container .row .col-xl-6 .list-group li {
+  padding: 15px;
+}
+
+#waiting {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#waiting #products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+}
+#waiting .box {
+  margin-top: 1rem;
+}
+#waiting .box img {
+  width: 200px;
+}
+#waiting .waiting-head {
+  font-size: 2rem;
+  font-weight: 500;
+}
+#waiting .opacity-50 {
+  width: 50%;
+}
+#waiting button {
+  padding: 15px;
+  color: #fff;
+  background-color: rgb(188, 81, 72);
+  border: 1px solid rgb(188, 81, 72);
+  border-radius: 5px;
+}
+
+#featured .featured {
+  font-weight: 500;
+  font-size: 2rem;
+  text-align: center;
+}
+#featured .container .w-75 .row .col-xl-4 img {
+  width: 24.3rem;
+  overflow: hidden;
+  height: 20rem;
+}
+
+footer {
+  padding: 20px;
+  background-color: rgb(188, 81, 72);
+  color: #fff;
+}
